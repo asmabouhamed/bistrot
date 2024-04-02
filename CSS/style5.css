@@ -1,0 +1,205 @@
+html,body{
+    height: 100%;
+    margin: 0%;
+}
+/* */
+body{
+    background-color: black ;
+    margin: 0%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+ul li{
+    list-style:none;
+
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+/*******************container***********************/
+.container{
+    width: 1200px;
+    height: 2200x;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 50px;
+
+}
+/*******************LOGO***********************/
+#logo{
+    top: 0.4em;
+    left: 0;
+    position: absolute;
+}
+#logo img{
+    font-size: 30px;
+    font-family: 'Didact Gothic', sans-serif;
+    color: beige;
+      margin-left: 0px;
+}
+/*********************************Menu********************/
+nav{
+    top:3.2em;
+    right: 0;
+    position: absolute;
+}
+nav ul li{
+    display: inline-flex;
+    padding-right:10px ;
+}
+nav a{
+    text-transform: uppercase ;
+}
+nav a:hover{
+    background-color: rgb(240, 193, 76);
+    border-radius: 5px;
+    padding: 1px;
+}
+nav a:active{
+    background-color: rgb(151, 137, 69);
+    border-radius: 5px;
+    padding: 1px;
+    color: black;
+}
+
+
+.menu{
+    width: 1200px;
+    height: 140px;
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    display: inline-block;
+    border-bottom: 5px solid #616161;
+
+}
+
+
+
+
+#about{
+    background-color: #000;
+    color: white;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    padding:30px ;
+
+}
+
+
+#blocA,#blocB{
+    float: left;
+}
+#blocC{
+    float:right;
+}
+#blocA,#blocB,#blocC{
+    width: 360px;
+    text-align : center;
+}
+#blocA h1,#blocB h1,#blocC h1{
+    display:inline-block;
+    padding: 15px;
+    margin-left: 125px;
+    text-align : center;
+
+}
+
+
+
+
+#blocA h3,#blocB h3,#blocC h3{
+    display:inline-block;
+    margin-top: 10;
+    padding: 15px;
+    margin-left: 125px;
+    text-align : center;
+
+}
+#blocA p,#blocB p,#blocC p{
+    display:inline-block;
+    margin-top: 10px;
+    padding: 15px;
+    margin-left: 125px;
+    text-align : center;
+
+}
+
+
+#blocA span,#blocB span,#blocC span{
+    display:inline-block;
+    margin-top: -50px;
+    padding: 15px;
+    margin-left: 125px;
+    text-align : center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{    
+    margin-top:0px;
+    border-top: 5px solid #616161;
+    padding-bottom: 5px;
+    background-color: black;
+    position: relative;
+
+}
+footer p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/*************** Les reseaux sociaux **********************/
+.rx {
+    display: flex;
+    margin-left: 500px;
+    
+}
+.rx li {
+    list-style: none;
+}
+.rx li a{
+    background-color: transparent;
+    display: inline-block;
+    padding: 10px;
+}

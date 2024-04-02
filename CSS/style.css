@@ -1,0 +1,273 @@
+html,body{
+    height: 100%;
+    margin: 0%;
+}
+/* */
+body{
+    background-color: black ;
+    margin: 0%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+ul li{
+    list-style:none;
+
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+/*******************container***********************/
+.container{
+    width: 1200px;
+    height: 1500px;
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    display: inline-block;
+    border-bottom: 5px solid #616161;
+
+}
+/*******************LOGO***********************/
+#logo{
+    top: 0.4em;
+    left: 0;
+    position: absolute;
+}
+#logo img{
+    font-size: 30px;
+    font-family: 'Didact Gothic', sans-serif;
+    color: beige;
+      margin-left: 0px;
+}
+/*********************************Menu********************/
+nav{
+    top:3.2em;
+    right: 0;
+    position: absolute;
+}
+nav ul li{
+    display: inline-flex;
+    padding-right:10px ;
+}
+nav a{
+    text-transform: uppercase ;
+}
+nav a:hover{
+    background-color: rgb(240, 193, 76);
+    border-radius: 5px;
+    padding: 1px;
+}
+nav a:active{
+    background-color: rgb(151, 137, 69);
+    border-radius: 5px;
+    padding: 1px;
+    color: black;
+}
+
+
+.menu{
+    width: 1200px;
+    height: 140px;
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    display: inline-block;
+    border-bottom: 5px solid #616161;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************ABOU*************/
+.about{
+    background-color: #0000;
+    overflow: hidden;
+    margin: 0px;
+    padding: 30px;
+    color: black;
+    text-align: center;
+    color: white;
+}
+.about h2{
+    font-size: 60px;
+}
+
+.text{
+    float: left;
+    width: 380px;    
+    height: 400px;
+    color: white;
+
+
+}
+.arriere{
+    float:right;
+    background:  url('../IMAGE/IMG_6008.jpg') no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 800px; 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contact{
+    background-color: rgb(177, 180, 91);
+    overflow: hidden;
+    color: white;
+    margin: 0;
+
+
+}
+
+#contact h4{
+    font-size: 30px;
+    text-align: center;
+}
+#contact span,p{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.wrapper{
+    width: 1000px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.asma{
+    background: #fff url('../IMAGE/Capture\ d’écran\ 2022-12-18\ 234552.png') no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 200PX;
+}
+
+
+
+
+
+
+
+footer{    
+    margin-top:0px;
+    border-top: 5px solid #616161;
+    padding-bottom: 5px;
+    background-color: black;
+    position: relative;
+
+}
+footer p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/*************** Les reseaux sociaux **********************/
+.rx {
+    display: flex;
+    margin-left: 500px;
+    
+}
+.rx li {
+    list-style: none;
+}
+.rx li a{
+    background-color: transparent;
+    display: inline-block;
+    padding: 10px;
+}

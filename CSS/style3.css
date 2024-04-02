@@ -1,0 +1,235 @@
+html,body{
+    height: 100%;
+    margin: 0%;
+}
+/* */
+body{
+    background-color: black ;
+    margin: 0%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+ul li{
+    list-style:none;
+
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+/*******************container***********************/
+.container{
+    width: 1200px;
+    height: 1500px;
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    display: inline-block;
+    border-bottom: 5px solid #616161;
+
+}
+/*******************LOGO***********************/
+#logo{
+    top: 0.4em;
+    left: 0;
+    position: absolute;
+}
+#logo img{
+    font-size: 30px;
+    font-family: 'Didact Gothic', sans-serif;
+    color: beige;
+      margin-left: 0px;
+}
+/*********************************Menu********************/
+nav{
+    top:3.2em;
+    right: 0;
+    position: absolute;
+}
+nav ul li{
+    display: inline-flex;
+    padding-right:10px ;
+}
+nav a{
+    text-transform: uppercase ;
+}
+nav a:hover{
+    background-color: rgb(240, 193, 76);
+    border-radius: 5px;
+    padding: 1px;
+}
+nav a:active{
+    background-color: rgb(151, 137, 69);
+    border-radius: 5px;
+    padding: 1px;
+    color: black;
+}
+
+
+.menu{
+    width: 1200px;
+    height: 140px;
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    display: inline-block;
+    border-bottom: 5px solid #616161;
+
+}
+
+
+
+
+h1{
+
+    font-family: 'Times New Roman', Times, serif;
+
+    text-align: center;
+
+    font-size: 30px;
+
+    color: yellow;
+
+    box-shadow: 0px 0px 15px #333;
+
+}
+
+
+label,p{
+
+    font-family: 'Times New Roman', Times, serif;
+
+    font-size: large;
+
+    display: inline;
+
+}
+
+input[type=text],input[type=password],input[type=email],input[type=tel],textarea{
+
+    width: 300px;
+
+    margin: auto;
+
+    display: flex;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+
+}
+
+input[type=radio],input[type=checkbox]{
+
+    width: 15px;
+
+    border: none;
+
+    position: relative;
+
+    margin: 20px 10px;
+
+    align-items: center;
+
+    display: run-in;
+
+}
+S
+input[type=submit]{
+
+    background-color: rgb(68, 37, 68);
+
+    font-size: 20px;
+
+    display: flex;
+
+    margin: auto;
+
+    text-align: center;
+
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{    
+    margin-top:0px;
+    border-top: 5px solid #616161;
+    padding-bottom: 5px;
+    background-color: black;
+    position: relative;
+
+}
+footer p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/*************** Les reseaux sociaux **********************/
+.rx {
+    display: flex;
+    margin-left: 500px;
+    
+}
+.rx li {
+    list-style: none;
+}
+.rx li a{
+    background-color: transparent;
+    display: inline-block;
+    padding: 10px;
+}
